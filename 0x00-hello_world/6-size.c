@@ -1,20 +1,28 @@
 #include <stdio.h>
 
 /**
- * main A program that print a line using the printf function
- * Return: 0 (success)
+ * main- Entry point
+ * printf- The function prints the size of types
+ * Return: (0) Success
  */
 
 int main(void)
-
 {
-	char a;
-	int b;
-	long int c;
-	long long int d;
-	float f;
+	int c;
+	int i;
+	int li;
+	int lli;
+	int f;
 
-
-printf("size of char: %lu byte(s)\n", (unsigned long)sizeof(a));
-printf("size of an int: %lu byte(s)\n",(unsigned long)size of b));
-printf(size of long int
+	c = sizeof(char);
+	i = sizeof(int);
+	li = sizeof(long int);
+	lli = sizeof(long long int);
+	f = sizeof(float);
+	printf("Size of a char: %d byte(s)\n", c);
+	printf("Size of an int: %d byte(s)\n", i);
+	printf("Size of a long int: %d byte(s)\n", li);
+	printf("Size of a long long int: %d byte(s)\n", lli);
+	printf("Size of a float: %d byte(s)\n", f);
+	return (0);
+}
