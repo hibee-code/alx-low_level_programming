@@ -3,9 +3,8 @@
 
 
 /**
- * main - prints "programming is like building a multilingual 
- * puzzle, followed by a newline.
- * Return: Always 0.
+ * main - A program that prints a line with put function
+ * Return: 0 (success)
  */
  
 
@@ -14,7 +13,7 @@
  
  {
 
- 	put("\"Programming is like building a multilingual puzzle");
+ 	puts("\"Programming is like building a multilingual puzzle");
 
 	return (0);
 
